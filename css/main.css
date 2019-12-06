@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+*, *::before, * ::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+img {
+  width: 6rem;
+  display: block;
+  margin-left: 3rem;
+}
+
+.fig {
+  display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+.cards {
+  text-align: center;
+  display: block;
+  float: left;
+  max-width: 25%;
+  border-left: 1px solid black;
+  padding: 1rem;
+  background-color: #e2e2e2;
+}
+
+.card2 {
+  background-color: #ccc;
+  padding-bottom:
+}
+
+.card3 {
+  background-color: #aaa;
+}
+
+.card4 {
+  background-color: #999;
+  border-right: 1px solid black;
+}
+
+h3 {
+  text-align: left;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.author {
+  font-size: 0.875rem;
+  margin: 0;
+  font-style: italic;
+  text-align: left;
+}
+
+.info {
+  text-align: left;
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-small {
+  text-align: left;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 0.875rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem 0.5rem;
+  border: 3px solid #333;
+  color: white;
+  text-align: left;
+  border-radius: 8px;
+  background-color: #333;
+}
+
+.btn:hover {
+  color: white;
+  border-color: black;
+  background-color: black;
+}
